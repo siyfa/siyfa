@@ -1,117 +1,113 @@
-export const webPortfolio = [
-  {
-    id: 1,
-    title: "Purplespace",
-    img: "assets/projects/purplespace1.png",
-    img1: "assets/projects/purplespace2.png",
-    description:
-      "A social media web application where users can connect with other users on the website. Client side was built using React with its various hooks while styling was done with CSS3. Cloud imaging on cloudinary was use for uploading images on the site. Api was also done by me and Nodejs and MongoDB was used which makes this project a complete MERN web application.",
-    url: "https://purplespace.netlify.app/",
-    github: "https://github.com/siyfa/Purplespace",
-  },
-  {
-    id: 2,
-    title: "Movie Hour",
-    img: "assets/projects/moviehour1.png",
-    img1: "assets/projects/moviehour2.png",
-    description:
-      "A movie web application to get latest information and trailer of your favourite movies and tvshows. App was built with React and useContext, IMDB api was consumed to power the application while Styled-component was used for styling and structuring.",
-    url: "https://moviehour.netlify.app/",
-    github: "https://github.com/siyfa/Moviehour",
-  },
-  {
-    id: 3,
-    title: "Github Profile Page Clone",
-    img: "assets/projects/github1.png",
-    img1: "assets/projects/github2.png",
-    description:
-      "A clone github profile page showing the first ten repositories of the login user. Github api was consumed while GraphQL was used to structure the data. Project was built with HTML5 and CSS3.",
-    github: "https://github.com/siyfa/Clone-Github-Profile-Page.io",
-    url: "https://cloned-github-profilepage.netlify.app/",
-  },
-  {
-    id: 4,
-    title: "aiora",
-    img: "assets/projects/aiora1.png",
-    img1: "assets/projects/aiora2.png",
-    description:
-      "An online banking platform for users that wish to experience easy banking and enjoy other benefits. Backend endpoints are unavailable for this project at the main time. This is a complete React project with styled-component for elements structure and styling.",
-    url: "https://aiora.netlify.app/",
-    github: "https://github.com/siyfa/aiora",
-  },
-  {
-    id: 5,
-    title: "tinder face clone",
-    img: "assets/projects/tinder1.png",
-    img1: "assets/projects/tinder2.png",
-    description: "A Tinder-face clone using React and tinder-cards library.",
-    url: "https://tinderclonny.netlify.app/",
-    github: "https://github.com/siyfa/Tinder-face-clone",
-  },
-];
 
-export const apiPortfolio = [
-  {
-    id: 6,
-    title: "Student E-Wallet",
-    img: "assets/projects/e-wallet1.png",
-    img1: "assets/projects/e-wallet2.png",
-    description:
-      "A web app for Convenient University students to won an E-wallet. Client side was done by another frontend developer. Nodejs and Express were used for the backend, MongoDB and Mongoose for database. Routes were protected before they can be access with middlewares and activities of different useres were limited  with Acess-control. Nodemailer was also used for 2F verification for students, and for sending receipts upon student ordering a product.",
-    url: "https://documenter.getpostman.com/view/16503047/Tzm3nHEX",
-  },
-  {
-    id: 7,
-    title: "Purplespace api",
-    img: "assets/projects/purplespaceapi1.png",
-    img1: "assets/projects/purplespaceapi2.png",
-    description:
-      "A social web application that connect people around the world. Backend tools used are Nodejs, Express, MongoDB, Mongoose, Socket.io, Multer-cloundinary.",
-    url: "https://documenter.getpostman.com/view/16503047/UUxtGWky",
-    github: "https://github.com/siyfa/Purplepsace-backend",
-  },
-  {
-    id: 8,
-    title: "Jimisewa",
-    img: "assets/projects/jimisewa1.png",
-    img1: "assets/projects/jimisewa2.png",
-    description:
-      "Catch latest blog posts, quotes and ebooks from jimisewa. Site is still under construction. Tools being use are Nodejs, Express,Multer, MongoDB, Mongoose, Nodemailer, Ejs.",
-    url: "http://jimisewa.herokuapp.com/",
-  },
-];
+const works = [
+    {
+        name: "Befrique",
+        description: "An e-commerce website where you can shop for creatively designed furniture for home and office decorations. As a user, you can place orders, make payments, and track your orders.",
+        tools: ["React", "Node", "MongoDB", "Redux", "Sass"],
+        github: null,
+        url: "https://befrique.com",
+        image: "/images/befrique.jpg",
+        featured: false
+    },
+    {
+        name: "Logistat",
+        description: "An enterprise-level multi-tenant application for logistics companies. As a tenant, you get your own customized subdomain. After subscribing, you'll have access to your tenant app, admin dashboard, user app, and rider app, all deployed for your use.",
+        tools: ["React", "Node", "PostgreSQL", "Docker", "Redis"],
+        github: null,
+        url: "https://logistat.africa",
+        image: "/images/logistat.jpg",
+        featured: true
+    },
+    {
+        name: "Logistat Tenant",
+        description: "Accessibility is granted after the tenant subscribes and their subdomain is created, then tenant can customize application. Tenants' users can access information about the company and make and track orders.",
+        tools: ["React", "Node", "PostgreSQL", "Docker", "Redis"],
+        github: null,
+        url: null,
+        image: "/images/logistat-tenant.jpg",
+        featured: true
+    },
+    {
+        name: "Logistat Admin",
+        description: "Accessibility is granted after the tenant subscribes and their subdomain is created, then tenant can customize application. Tenants can monitor all activities across other applications, including user, rider, and tenant web apps, on this dashboard.",
+        tools: ["React", "Node", "PostgreSQL", "Docker", "Redis"],
+        github: null,
+        url: null,
+        image: "/images/logistat-admin.jpg",
+        featured: true
+    },
+    {
+        name: "Terminal Management System v1.0",
+        description: "TMS is an integral component of the PTSP stack, a fintech stack designed for deploying point-of-sale (POS) and terminal applications. This application has already been used by companies such as CyberPay and SwiftLink, among others.",
+        tools: ["Node", "PostgreSQL", "jQuery", "Bootstrap"],
+        github: null,
+        url: null,
+        image: "/images/tms1.jpg",
+        featured: true
+    },
+    {
+        name: "Smart Deposit Scheme (SDS)",
+        description: "SDS is an electronic product designed to assist depositors in lodging or transferring physical money (cash) directly into their own or third-party bank accounts without the need to visit their banks. This is possible through dedicated and secure PIN vouchers.",
+        tools: ["Node", "EJS", "jQuery", "PostgreSQL"],
+        github: null,
+        url: "https://smartdepositscheme.com/",
+        image: "/images/sds.jpg",
+        featured: true
+    },
+    {
+        name: "ProctorMe",
+        description: "A proctoring platform, dedicated to providing Africans with access to the best AI-proctoring solution. On the platform, aking exams remotely is made easy while still upholding the integrity of the examination, with robust AI-proctoring features.",
+        tools: ["React", "Redux", "Sass", "Styled-component"],
+        github: null,
+        url: "https://proctorme.com/",
+        image: "/images/proctorme.jpg",
+        featured: true
+    },
+    {
+        name: "FoodTrain",
+        description: "FoodTrain is a startup based in Ohio, USA. It offer Progressive Web Apps built with TypeScript for both user and rider apps. It utilizes RPA (Robotic Process Automation) technology to streamline the ordering and delivery process across the software.",
+        tools: ["Node", "React", "Typescript", "MongoDB", "PWA"],
+        github: null,
+        url: null,
+        image: "/images/foodtrain.jpg",
+        featured: true
+    },
+    {
+        name: "siyfa.com (v1)",
+        description: "A personal portfolio site built with React and Tailwind. It's an open-source project, welcoming contributions.",
+        tools: ["React", "Styled-component", "Tailwind", "Netlify"],
+        github: "https://www.github.com/siyfa/v1",
+        url: "https://siyfa.com",
+        image: "/images/v1.jpg",
+        featured: false
+    },
+    {
+        name: "Movie Hour",
+        description: "A personal project for movie lovers. You can find movie details such as release date, cast, and even watch trailers within the application, and much more. It's an open-source project, welcoming contributions.",
+        tools: ["React", "Styled-component"],
+        github: "https://github.com/siyfa/Moviehour",
+        url: "https://moviehour.netlify.app/",
+        image: "/images/moviehour.jpg",
+        featured: false
+    },
+    {
+        name: "Aiora",
+        description: "Aiora is a creative banking application that I designed purely for its user interface. It's a UI concept with no interactive functionality.",
+        tools: ["React", "Styled-component"],
+        github: "https://github.com/siyfa/aiora",
+        url: "https://aiora.netlify.app/",
+        image: "/images/aiora.jpg",
+        featured: false
+    },
+    // {
+    //     name: "Tiktok Clone",
+    //     description: "I created a TikTok clone using a few slides to showcase my styling creativity.",
+    //     tools: ["React", "Material-UI"],
+    //     github: "https://github.com/siyfa/Tiktok-status-clonny",
+    //     url: "https://tiktokstatusclonny.netlify.app/",
+    //     image: "/images/tiktok.jpg",
+    //     featured: false
+    // }
+]
 
-export const designsPortfolio = [
-  {
-    id: 9,
-    title: "Logos",
-    img: "assets/projects/logo1.png",
-    img1: "assets/projects/logo2.png",
-    description:
-      "Displaying some of pass logos done for clients. Adobe Photoshop and Luminate are mainly tools used for designing logos.",
-  },
-  {
-    id: 10,
-    title: "Fliers",
-    img: "assets/projects/flier1.png",
-    img1: "assets/projects/flier2.png",
-    description:
-      "Displaying some of pass fliers done for clients. Canva, Adobe Photoshop are mainly tools used for designing.",
-  },
-  {
-    id: 11,
-    title: "Complimentary cards",
-    img: "assets/projects/card1.png",
-    img1: "assets/projects/card2.png",
-    description:
-      "Displaying some of pass cards done for clients. Canva, Adobe Photoshop are mainly tools used for designing.",
-  },
-  {
-    id: 12,
-    title: "Posters",
-    img: "assets/projects/poster1.png",
-    img1: "assets/projects/poster2.png",
-    description:
-      "Displaying some of pass social media posters done for clients. Canva, Adobe Photoshop are mainly tools used for designing.",
-  },
-];
+export { works }
